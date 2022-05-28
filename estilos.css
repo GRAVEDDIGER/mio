@@ -71,8 +71,8 @@ main{margin: 120px 2rem 2rem 1rem;
     margin-bottom: 1rem;
 }
 .secciones article, ul ,li{
-    background-color: var(--primario);
-    color: var(--secundario);
+    background-color: var(--secundario);
+    
 }
 .secciones article{
     margin-bottom: 2rem;
@@ -93,8 +93,12 @@ main{margin: 120px 2rem 2rem 1rem;
     background-color: transparent;
 }
 footer{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     background-color: var(--primario);
+    position: relative !important;
+}
+.copy{
+    font-size: 14px;
 }
 .nav-item >.nav-link{
     color:var(--acentos);
