@@ -132,6 +132,11 @@ footer {
     margin: 0 2rem;
 }
 
+.redSocial:hover {
+    filter: saturate(180%);
+    transform: scale(1.04);
+}
+
 @media (max-width:992px) {
     .menu {
         display: flex;
