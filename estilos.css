@@ -44,7 +44,7 @@ main{margin: 120px 2rem 2rem 1rem;
     float: right;
     margin-left: 1rem;
     min-width: 250px;
-    width: 30%;
+    width: 40%;
     border: var(--acentos) solid 3px;
     box-shadow: 3px 3px 15px var(--acentos);
 
@@ -105,3 +105,33 @@ footer{
 }
 .nav-item >.nav-link:hover{
     color:#6b4d22;}
+.navbar-toggler{
+    margin: 0 2rem;
+}
+@media (max-width:992px) {.menu{display: flex;
+    justify-content: center;
+    margin-right: 2rem;}
+    .float-right{
+        display: flex;
+        flex-direction: column;
+            width: 50%;
+        }
+}
+
+
+@media (min-width:993px) {
+    .menu{justify-content: flex-end;
+        margin-right: 2rem;
+    text-align: right;
+}
+.menu ul{justify-content: flex-end;}
+    
+}
+@media (max-width:768px) {
+    .float-right{
+        display: flex;
+        flex-direction: column;
+            width: 100%;
+        }
+    
+}
